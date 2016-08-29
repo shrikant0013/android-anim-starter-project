@@ -9,20 +9,30 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        tools:context="com.shrikant.animation_warmup.MainActivity">
+        tools:context="com.shrikant.animation_warmup.MainActivity"
+        android:background="@color/white">
         <Button
             android:id="@+id/btnAnimate"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:text="@string/btn_text"/>
-
+            android:text="@string/btn_text"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+<!--
         <TextView
             android:id="@+id/tvDance"
             android:layout_width="200dp"
             android:layout_height="100dp"
-            android:layout_marginTop="@dimen/activity_vertical_margin"
             android:text="@string/tv_text"
-            android:layout_below="@id/btnAnimate"/>
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+-->
+        <ImageView
+            android:id="@+id/ivBike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_directions_bike_black_24dp"/>
     </RelativeLayout>
 </layout>
 
