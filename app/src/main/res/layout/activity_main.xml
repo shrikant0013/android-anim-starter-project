@@ -18,15 +18,7 @@
             android:text="@string/btn_text"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
-<!--
-        <TextView
-            android:id="@+id/tvDance"
-            android:layout_width="200dp"
-            android:layout_height="100dp"
-            android:text="@string/tv_text"
-            android:layout_centerVertical="true"
-            android:layout_centerHorizontal="true" />
--->
+
         <ImageView
             android:id="@+id/ivBike"
             android:layout_width="wrap_content"
